@@ -4,7 +4,17 @@ Esse exercício é com base no repositório: [https://github.com/tryber/exercise
 
 ## Instalação
 
-- Faça o "git clone git@github.com:tryber/exercise-pokedex-state.git"
-- Acesse a pasta no seu computador do projeto
-- Rode o "npm install"
-- Rode o "npm start" para iniciar a aplicação
+Rode o git clone:
+
+      git clone git@github.com:yourgithubusername/tutorial.git
+
+Acesse a pasta no seu computador do projeto.
+
+Rode:
+
+      npm install
+Rode:
+
+      npm start
+
+      
