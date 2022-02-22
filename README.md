@@ -6,7 +6,7 @@ Esse exercício é com base no repositório: [https://github.com/tryber/exercise
 
 Rode o git clone:
 
-      git clone git@github.com:yourgithubusername/tutorial.git
+      git clone git@github.com:GabrielFMPinheiro/Monitoria-Turma-19A-Trybe.git
 
 Acesse a pasta no seu computador do projeto.
 
