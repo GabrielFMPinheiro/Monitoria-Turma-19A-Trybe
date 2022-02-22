@@ -1,0 +1,16 @@
+.pokemon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  border: 1px solid gray;
+  width: 300px;
+  margin: 20px 0;
+}
+
+.pokemon-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
