@@ -7,7 +7,7 @@ import "./Pokedex.css";
 
 class Pokedex extends React.Component {
   constructor(props) {
-    // constructor: método permite que a gente consigar setar algumas configurações iniciais na nossa página
+    // constructor: método permite que a gente consiga setar algumas configurações iniciais na nossa página
 
     super(props);
     // super: permite a gente acessar as propriedades da nossa classe, nesse caso React.Components
@@ -35,7 +35,7 @@ class Pokedex extends React.Component {
 
   filterByType(type) {
     // Essa lógica salvará o nosso array de pokemons filtrados no nosso estado;
-    // obs: sempre utilizamos o array bruto, ou seja, com todos os objetos(pokemons) e em seguinda fazemos o filtro
+    // obs: sempre utilizamos o array bruto, ou seja, com todos os objetos(pokemons) e em seguida fazemos o filtro
     this.setState((_prevState, { pokemons }) => ({
       pokemons: pokemons.filter((pokemons) => pokemons.type === type),
       // sempre quando haver um filtro, o index volta a ser 0, ou seja, para a posição inicial do novo array filtrado
@@ -59,7 +59,7 @@ class Pokedex extends React.Component {
 
         <div className="btn-container">
           <Button btnHandler={this.resetPokemons}>All</Button>
-          {/* A função "new Set" retorna para gente um array sem duplicados, porém Set não é um array, para isso foi feito um spread('...') antes envolta de "[]" para que um array seja criado */}
+          {/* A função "new Set" retorna para gente um array sem duplicados, porém Set não é um array, para isso foi feito um spread('...') dentro de "[]" para que um array seja criado */}
           {[...new Set(this.props.pokemons.map(({ type }) => type))].map(
             (type) => (
               <Button key={type} btnHandler={() => this.filterByType(type)}>
@@ -72,7 +72,7 @@ class Pokedex extends React.Component {
         <Button
           btnHandler={this.nextPokemon}
           isDisabled={this.state.pokemons.length === 1}
-          // Essa lógica fará que quando o array de pokemons após o filtro tiver tamanho 1, o botão estará desabilitado.
+          // Essa lógica fará com que quando o array de pokemons após o filtro tiver tamanho 1, o botão estará desabilitado.
         >
           Próximo Pokemon
         </Button>
