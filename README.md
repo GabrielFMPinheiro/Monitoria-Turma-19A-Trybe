@@ -1,4 +1,4 @@
-# Monitoria do dia 11.2 - Componentes com estado e eventos
+# Monitoria do dia 11.2 - Formulários no React
 
-Esse exercício é com base no repositório: [https://github.com/tryber/exercise-pokedex-state](https://github.com/tryber/exercise-pokedex-state)
+Esse exercício é uma exeplificação de como funciona o formulário no React.
      
